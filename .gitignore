@@ -1,0 +1,21 @@
+# Python virtual environments
+.venv/
+.superset-venv/
+.superset-venv310/
+
+# Python cache and test cache
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+
+# macOS metadata
+.DS_Store
+
+# Local data layers (not tracked)
+data/
+data/bronze/
+data/silver/
+data/gold/
+
+# Airflow local artifacts (if any)
+airflow/logs/

@@ -1,0 +1,12 @@
+
+data_root: "./data"
+raw_dir:   "./data/raw/olist"
+bronze_dir: "./data/bronze"
+silver_dir: "./data/silver"
+gold_dir:  "./data/gold"
+app:
+  app_name: "olist-pipeline-local"
+  master: "local[1]"   # limit Spark to 1 core locally
+spark:
+  shuffle_partitions: 1 # lighter local shuffles
+  timezone: "UTC"

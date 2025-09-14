@@ -1,0 +1,12 @@
+
+pyspark==3.5.1
+pandas>=2.1.0
+pyarrow>=14.0.0
+pydantic>=2.0
+pyyaml>=6.0
+pytest>=7.4
+# For loaders and DB integration
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+# For dataset download (optional)
+kaggle>=1.6
